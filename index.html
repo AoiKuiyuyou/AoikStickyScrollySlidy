@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!--[if lte IE 9 ]><html>Sorry, this page requires at least IE 10 to work properly.</html> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!--2nA65Sv begin-->
+<html class="">
+    <head>
+        <meta charset="utf-8" />
+        <base href="./src/"></base>
+        <!--Title's i18n is done at 7kdJZK5 to avoid flashing.-->
+        <title>Resume</title>
+        <link rel="stylesheet" type="text/css" href="./aoikstickyscrollyslidy.css" />
+        <script src="./jquery/1.9.1/jquery.min.js"></script>
+        <script src='./jquery.mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+        <script src='./angularjs/1.3.16/angular.min.js'></script>
+        <script src='./angular-load/ver_ce9ce7177b/angular-load.min.js'></script>
+        <script src="./aoiki18n/0.1/src/aoiki18n/aoiki18n.js"></script>
+        <!--If dir path "./aoiki18n/tran/" changes, remember updating 5btZ4Bx-->
+        <script src='./aoikstickyscrollyslidy.js'></script>
+    </head>
+    <body ng-app="AoikStickyScrollySlidy" ng-strict-di ng-controller="app_ctlr">
+        <div data-log="OnBodyStart"></div>
+        {{''|i18n|emit:this:'i18n_tran_start'}}
+        <!--8iyPXBJ-->
+        <!--Do not add any other css classes for "locale_root".
+        Will be cleared at 2hV0jxb.-->
+        <div id="locale_root" class="locale_root">
+            <div id="i18n_page">
+                <div id="i18n_nav_mask" class="i18n_nav_mask"></div>
+                <div id="i18n_nav" class="i18n_nav">
+                    <div id="i18n_nav_toggle" class="i18n_nav_toggle">
+                        <!--span is used by CSS to show three lines-->
+                        <span></span>
+                    </div>
+                    <ul id="i18n_nav_items" class="i18n_nav_items">
+                        <li data-i18n-locale="en" class="i18n_nav_item">
+                            <a href="#">
+                                English
+                            </a>
+                        </li>
+                        <li data-i18n-locale="ja" class="i18n_nav_item">
+                            <a href="#">
+                                日本語 (Japanese)
+                            </a>
+                        </li>
+                        <li data-i18n-locale="zh-cn" class="i18n_nav_item">
+                            <a href="#">
+                                中文简体 (Chinese Simplified)
+                            </a>
+                        </li>
+                        <li data-i18n-locale="zh-hant" class="i18n_nav_item">
+                            <a href="#">
+                                中文繁体 (Chinese Traditional)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--9tDwytO-->
+            <div id="hello_page" class="hello_page">
+                <div class="hello_txt" data-i18n="6tGTl6o"></div>
+            </div>
+            <div id="content_page" class="content_page">
+                <div id="content_page_nav" class="content_page_nav">
+                    <ul id="content_section_menu" class="section_menu">
+                        <!--2ijzX9N-->
+                        <!--Click hdlr is bound at 6kxQD2q-->
+                        <li><i class="icon"></i><a href="#/contact" data-i18n="8v2Lx7d"></a><div class="arrow_box"><i class="arrow"></i><i class="arrow_inner"></i></div></li>
+                        <li><i class="icon"></i><a href="#/experiences" data-i18n="7bNllVa"></a><div class="arrow_box"><i class="arrow"></i><i class="arrow_inner"></i></div></li>
+                        <li><i class="icon"></i><a href="#/education" data-i18n="4aJQS90"></a><div class="arrow_box"><i class="arrow"></i><i class="arrow_inner"></i></div></li>
+                        <li><i class="icon"></i><a href="#/selfintro" data-i18n="4pUEnk5"></a><div class="arrow_box"><i class="arrow"></i><i class="arrow_inner"></i></div></li>
+                        <li><i class="icon"></i><a href="#/skills" data-i18n="9zTcVyJ"></a><div class="arrow_box"><i class="arrow"></i><i class="arrow_inner"></i></div></li>
+                    </ul>
+                    <div id="slidy_menu" class="slidy_menu">
+                        <i class="slidy_off"></i>
+                        <i class="slidy_on"></i>
+                    </div>
+                    <i id="hello_toggle" class="hello_toggle"></i>
+                    <i id="attribution_toggle" class="attribution_toggle"></i>
+                    <div id="i18n_nav_toggle2" class="i18n_nav_toggle i18n_nav_toggle2">
+                        <!--span is used by CSS to show three lines-->
+                        <span></span>
+                    </div>
+                </div>
+                <article>
+                    <section id="contact" class="contact">
+                        <i class="langcloud"></i>
+                        <div class="name" data-i18n="6pNp3aZ"></div>
+                        <ul>
+                            <li>
+                                <i class="age_ico"></i>
+                                <p class="age_txt"><u data-i18n="8puGsmQ"></u><u id="contact_age_num"></u><u data-i18n="2yOw8qq"></u></p>
+                            </li>
+                            <li>
+                                <i class="city_ico"></i>
+                                <p class="city_txt" data-i18n="3xAmT03"></p>
+                            </li>
+                            <li>
+                                <i class="phone_ico"></i>
+                                <p class="phone_txt" data-i18n="9fZeTtT"></p>
+                            </li>
+                            <li>
+                                <i class="email_ico"></i>
+                                <p class="email_txt"><a href="mailto:{{'6oUePGs'|i18n:i18n_update_flag}}" data-i18n="6oUePGs"></a></p>
+                            </li>
+                            <li>
+                                <i class="qq_ico"></i>
+                                <p class="qq_txt" data-i18n="2cRAucw"></p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="experiences" class="experiences">
+                        <h2 data-i18n="7bNllVa"></h2>
+                        <div class="h2body">
+                            <div class="github h3box">
+                                <div class="timerange" data-i18n="5nt9BMO"></div>
+                                <h3><a href="https://github.com/AoiKuiyuyou/Aoik" target="_blank" data-i18n="8nHzJNO"></a></h3>
+                                <a href="https://github.com/AoiKuiyuyou/Aoik" target="_blank"><i class="github_icon"></i></a>
+                                <p><i class="lang_cnt" data-i18n="5dml4CZ"></i><i class="lang_txt" data-i18n="6raAOw4"></i><a href="https://github.com/AoiKuiyuyou/Aoik" target="_blank"><i data-i18n="7cflSnU"></i></a></p>
+                                <p><i class="repo_cnt" data-i18n="6fYks5e"></i><i class="repo_txt" data-i18n="9qfsKZX"></i><a href="https://github.com/AoiKuiyuyou/AoikWinWhich" target="_blank"><i data-i18n="6ybinzI"></i></a></p>
+
+                                <div class="details">
+                                    <p data-i18n="9dIcaQS"></p>
+                                    <ul>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head"><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser" target="_blank">AoikTopDownParser</a></h4>
+                                            <p class="item_txt"><i data-i18n="9e2WQG9"></i><br/><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser#features" target="_blank" data-i18n="5qmkfbV"></a><i data-i18n="7o3pvLR"></i><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser#simpler-rules-syntax" target="_blank" data-i18n="3qeyAFS"></a><i data-i18n="8r68LbV"></i><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser#tweakable-generation-options" target="_blank" data-i18n="8kLpi9U"></a><i data-i18n="8r68LbV"></i><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser#simpler-generated-code" target="_blank" data-i18n="2purSBM"></a><i data-i18n="8r68LbV"></i><a href="https://github.com/AoiKuiyuyou/AoikTopDownParser#no-runtime-dependency" target="_blank" data-i18n="4va68RB"></a><i data-i18n="2s5us5H"></i></p>
+                                            <p class="item_txt" data-i18n="3sFNxtv"></p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head"><a href="https://github.com/AoiKuiyuyou/AoikDynDocDSL" target="_blank">AoikDynDocDSL</a></h4>
+                                            <p class="item_txt" data-i18n="8fhzqfL"></p>
+                                            <p class="item_txt" data-i18n="7a1KC8n"></p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head"><a href="https://github.com/AoiKuiyuyou/AoikHotkey" target="_blank">AoikHotkey</a></h4>
+                                            <p class="item_txt"><i data-i18n="5ecq2ua"></i><br/><a href="https://github.com/AoiKuiyuyou/AoikHotkey#features" target="_blank" data-i18n="2oP53sc"></a><i data-i18n="7a1mVqU"></i></p>
+                                            <p class="item_txt" data-i18n="6h0Kyn2"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="examplecom h3box">
+                                <div class="timerange" data-i18n="7pN8O2H"></div>
+                                <h3><a href="http://example.com/" target="_blank">Example.com</a></h3>
+                                <a href="http://example.com/" target="_blank"><i class="examplecom_icon"></i></a>
+                                <p class="examplecom_intro">
+                                    <i data-i18n="6rg9Q55"></i>
+                                </p>
+                                <div class="work_details_box">
+                                    <p data-i18n="3hjUya4"></p>
+                                    <ul class="work_details_list">
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="3cSQEoJ"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="2zseFcB"></i><br/>
+                                                <i data-i18n="9chYMFz"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="5zKzn6Z"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="7ozMk3v"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="2pzBJ0B"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="6qVjsxa"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="7x4r7fl"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="7wOTLXR"></i><br/>
+                                                <i data-i18n="4sPJXjE"></i><br/>
+                                                <i data-i18n="4jepz4o"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="2s0vj2F"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="9iXxZaD"></i><br/>
+                                                <i data-i18n="4uWxwmF"></i><br/>
+                                                <i data-i18n="3m54odx"></i><br/>
+                                                <i data-i18n="7wsmtEs"></i><br/>
+                                                <i data-i18n="6pf4Njd"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="9xiJTY0"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="2mIzbaT"></i>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="item_icon"></i>
+                                            <h4 class="item_head" data-i18n="8heUz1U"></h4>
+                                            <p class="item_txt">
+                                                <i data-i18n="3qH5NTP"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="education" class="education">
+                        <h2 data-i18n="4aJQS90"></h2>
+                        <div class="h2body">
+                            <div class="timerange" data-i18n="5bzjXPy"></div>
+                            <h3 class="degree" data-i18n="4gRiTKV"></h3>
+                            <p class="college"><a href="http://example.com/" target="_blank" data-i18n="5iOb90M"></a></p>
+                            <a href="http://example.com/" target="_blank"><i class="college_icon"></i></a>
+                            <ul class="details">
+                                <li data-i18n="3yv5mPS"></li>
+                                <li data-i18n="2xfXa30"></li>
+                                <li data-i18n="2fbKS2b"></li>
+                                <li data-i18n="9fG45Hh"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="selfintro" class="selfintro">
+                        <h2 data-i18n="5gKOMN2"></h2>
+                        <div class="h2body">
+                            <ul>
+                                <li data-i18n="8pRiy07"></li>
+                                <li data-i18n="3iFw5Qv"></li>
+                                <li data-i18n="6u9AU34"></li>
+                                <li data-i18n="3pnwiJ7"></li>
+                                <li data-i18n="5pdS4B8"></li>
+                                <li data-i18n="8dvY8aW"></li>
+                                <li data-i18n="2nj16NM"></li>
+                                <li data-i18n="2zDkLQR"></li>
+                                <li data-i18n="6eiyYgT"></li>
+                                <li data-i18n="5r97jyW"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="skills" class="skills">
+                        <h2 data-i18n="4uXzkL1"></h2>
+                        <div class="h2body">
+                            <ul class="battery_meanings">
+                                <li><i class="battery_h"></i><i data-i18n="4aTpgQg"></i></li>
+                                <li><i class="battery_m"></i><i data-i18n="2df8uMu"></i></li>
+                                <li><i class="battery_l"></i><i data-i18n="7bAmOy9"></i></li>
+                            </ul>
+                            <ul class="subsecs">
+                                <li>
+                                    <h3 data-i18n="3jKFHV4"></h3>
+                                    <p>
+                                        <i class="battery_h"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Python" target="_blank">Python</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-JavaScript" target="_blank">JavaScript</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-CoffeeScript" target="_blank">CoffeeScript</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Java" target="_blank">Java</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Scala" target="_blank">Scala</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-C" target="_blank">C</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Cpp" target="_blank">C++</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-CSharp" target="_blank">C#</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Ruby" target="_blank">Ruby</a></p>
+                                    <i class="battery_m"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWinWhich-PHP" target="_blank">PHP</a></p>
+                                    <i class="battery_l"></i><p class="other_langs">
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Bash" target="_blank">Bash</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Batch" target="_blank">Batch</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Ceylon" target="_blank">Ceylon</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Clojure" target="_blank">Clojure</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Cpp-CLI" target="_blank">C++-CLI</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-D" target="_blank">D</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Dart" target="_blank">Dart</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Eiffel" target="_blank">Eiffel</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Erlang" target="_blank">Erlang</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-FSharp" target="_blank">F#</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Go" target="_blank">Go</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Groovy" target="_blank">Groovy</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Haskell" target="_blank">Haskell</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Hy" target="_blank">Hy</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Julia" target="_blank">Julia</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Kotlin" target="_blank">Kotlin</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Lua" target="_blank">Lua</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-OCaml" target="_blank">OCaml</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Pascal" target="_blank">Pascal</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Perl" target="_blank">Perl</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Rust" target="_blank">Rust</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Scheme" target="_blank">Scheme</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Tcl" target="_blank">Tcl</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-VB.NET" target="_blank">VB.NET</a>
+                                        <a href="https://github.com/AoiKuiyuyou/AoikWinWhich-Xtend" target="_blank">Xtend</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="6m1a19K"></h3>
+                                    <i class="battery_m"></i><p>iOS</p>
+                                    <i class="battery_m"></i><p>Android</p>
+                                    <i class="battery_l"></i><p>Windows Phone</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="2sXaCvm"></h3>
+                                    <i class="battery_h"></i><p>SQLAlchemy</p>
+                                    <i class="battery_h"></i><p>MySQL</p>
+                                    <i class="battery_m"></i><p>Microsoft SQL Server</p>
+                                    <i class="battery_m"></i><p>ODBC, FreeTDS</p>
+                                    <i class="battery_m"></i><p>SQLite</p>
+                                    <i class="battery_l"></i><p>Oracle</p>
+                                    <i class="battery_l"></i><p>Postgres</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="8jvfLLV"></h3>
+                                    <i class="battery_h"></i><p>Redis</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="9oZYgnH"></h3>
+                                    <i class="battery_h"></i><p>JSON</p>
+                                    <i class="battery_h"></i><p>YAML</p>
+                                    <i class="battery_h"></i><p>Markdown</p>
+                                    <i class="battery_m"></i><p>HTML</p>
+                                    <i class="battery_m"></i><p>CSS</p>
+                                    <i class="battery_m"></i><p>XML</p>
+                                    <i class="battery_l"></i><p>XSLT</p>
+                                    <i class="battery_l"></i><p>XPath</p>
+                                    <i class="battery_l"></i><p>DTD</p>
+                                    <i class="battery_l"></i><p>Schema</p>
+                                    <i class="battery_l"></i><p>Tex/LaTex</p>
+                                    <i class="battery_l"></i><p>HAML</p>
+                                    <i class="battery_l"></i><p>SASS</p>
+                                    <i class="battery_l"></i><p>LESS</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="2uiQ2CY"></h3>
+                                    <i class="battery_h"></i><p>Jinja2</p>
+                                    <i class="battery_m"></i><p>Mako</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="6pTCn8L"></h3>
+                                    <i class="battery_l"></i><p>Photoshop</p>
+                                    <i class="battery_l"></i><p>Fireworks</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="7mv2sRm"></h3>
+                                    <i class="battery_h"></i><p>Tornado</p>
+                                    <i class="battery_m"></i><p>Django</p>
+                                    <i class="battery_m"></i><p>Flask</p>
+                                    <i class="battery_m"></i><p>Bottle</p>
+                                    <i class="battery_l"></i><p><a href="https://github.com/AoiKuiyuyou/AoikWebFrameworkStart" target="_blank" data-i18n="5waxOAE"></a></p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="8qM4UES"></h3>
+                                    <i class="battery_h"></i><p>AngularJS</p>
+                                    <i class="battery_h"></i><p>jQuery</p>
+                                    <i class="battery_m"></i><p>Underscore</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="3kBf2kn"></h3>
+                                    <i class="battery_h"></i><p>Nginx</p>
+                                    <i class="battery_m"></i><p>Apache</p>
+                                    <i class="battery_m"></i><p>Lighttpd</p>
+                                    <i class="battery_m"></i><p>uWSGI</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="4kkNS3y"></h3>
+                                    <i class="battery_h"></i><p>Git</p>
+                                    <i class="battery_m"></i><p>Hg</p>
+                                    <i class="battery_m"></i><p>Svn</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="5yBV4lf"></h3>
+                                    <i class="battery_h"></i><p>Salt</p>
+                                    <i class="battery_h"></i><p>Fabric</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="3ntrYXl"></h3>
+                                    <i class="battery_h"></i><p>Pyenv</p>
+                                    <i class="battery_h"></i><p>Virtualenv</p>
+                                    <i class="battery_m"></i><p>Docker</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="8iEcaE4"></h3>
+                                    <i class="battery_h"></i><p>Eclipse</p>
+                                    <i class="battery_h"></i><p>Netbeans</p>
+                                    <i class="battery_h"></i><p>Visual Studio</p>
+                                    <i class="battery_h"></i><p>Sublime Text</p>
+                                    <i class="battery_h"></i><p>Notepad++</p>
+                                    <i class="battery_m"></i><p>IntelliJ</p>
+                                    <i class="battery_m"></i><p>PyCharm</p>
+                                </li>
+                                <li>
+                                    <h3 data-i18n="8uwsBRT"></h3>
+                                    <i class="battery_h"></i><p>Windows</p>
+                                    <i class="battery_h"></i><p>Linux</p>
+                                    <i class="battery_m"></i><p>Mac OS X</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+            </div>
+            <div id="attribution_page" class="attribution_page">
+                <div id="attribution_page_close_button" class="close_button i18n_nav_toggle">
+                    <!--span is used by CSS to show three lines-->
+                    <span></span>
+                </div>
+                <table>
+                    <colgroup><col><col><col></colgroup>
+                    <tbody>
+                        <tr class="jquery">
+                            <td class="img"><a href="https://github.com/jquery/jquery" target="_blank">jquery</a></td>
+                            <td class="author"></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/jquery/jquery/blob/master/LICENSE.txt" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="jquery-mousewheel">
+                            <td class="img"><a href="https://github.com/jquery/jquery-mousewheel" target="_blank">jquery-mousewheel</a></td>
+                            <td class="author"></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/jquery/jquery-mousewheel/blob/master/LICENSE.txt" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="angularjs">
+                            <td class="img"><a href="https://github.com/angular/angular.js" target="_blank">angular.js</a></td>
+                            <td class="author"></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/angular/angular.js/blob/master/LICENSE" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="angularjs-load">
+                            <td class="img"><a href="https://github.com/urish/angular-load" target="_blank">angular-load</a></td>
+                            <td class="author"></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/urish/angular-load/blob/master/LICENSE" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="aoiki18n">
+                            <td class="img"><a href="https://github.com/AoiKuiyuyou/AoikI18n-AngularJS" target="_blank">AoikI18n-AngularJS</a></td>
+                            <td class="author"></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/AoiKuiyuyou/AoikI18n-AngularJS/blob/master/LICENSE.txt" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="css_circle_menu">
+                            <td class="img"><a href="https://github.com/callmenick/CSS-Circle-Menu" target="_blank">CSS-Circle-Menu</a></td>
+                            <td class="author"><i data-i18n="3wv7AhD"></i></td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://github.com/callmenick/CSS-Circle-Menu#license--copyright" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_age">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="https://www.mapbox.com/" target="_blank">Mapbox</a><br />
+                                <a href="https://www.iconfinder.com/icons/103223/tree_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license">Free for commercial use (Restrictions apply) (<a href="https://www.iconfinder.com/icons/103223/tree_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_city">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://tmthymllr.com/" target="_blank">Timothy Miller</a><br />
+                                <a href="https://www.iconfinder.com/icons/134213/building_home_house_main_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a> (<a href="https://www.iconfinder.com/icons/134213/building_home_house_main_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_city_map_maker">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://www.rubiopinto.com/portfolio/" target="_blank">Nicolas Rubio</a><br />
+                                <a href="https://www.iconfinder.com/icons/311123/coordinates_gps_locate_location_map_position_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a> (<a href="https://www.iconfinder.com/icons/311123/coordinates_gps_locate_location_map_position_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_email">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://designmodo.com/" target="_blank">Designmodo</a><br />
+                                <a href="https://www.iconfinder.com/icons/115714/email_mail_send_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a> (<a href="https://www.iconfinder.com/icons/115714/email_mail_send_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_phone">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://danielbruce.se/" target="_blank">Daniel Bruce</a><br />
+                                <a href="https://www.iconfinder.com/icons/216670/mobile_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a> (<a href="https://www.iconfinder.com/icons/216670/mobile_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_qq">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://ivancoyier.deviantart.com/" target="_blank">Icon design</a><br />
+                                <a href="https://www.iconfinder.com/icons/104603/penguin_qq_icon" target="_blank">IconFinder</a>
+                            </td>
+                            <td class="license">Free for commercial use (<a href="https://www.iconfinder.com/icons/104603/penguin_qq_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="contact_langcloud">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://worditout.com/" target="_blank">WordItOut</a></td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/be/deed.en" target="_blank">CC BY-NC-ND 2.0 BE</a> (<a href="http://worditout.com/community/questions" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="section_menu_pin">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://www.icons-land.com/" target="_blank">Icons Land</a><br />
+                                <a href="https://www.iconfinder.com/icons/73058/base_left_map_marker_pin_pink_push_icon" target="_blank">IconFinder</a>
+                            </td>
+                            <td class="license">Free for commercial use (Attribute author as specified in license) (<a href="https://www.iconfinder.com/icons/73058/base_left_map_marker_pin_pink_push_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="hello_toggle">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://icons8.com/" target="_blank">Visual Pharm</a><br />
+                                <a href="https://www.iconfinder.com/icons/175463/compare_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license">Free for commercial use (Include link to authors website) (<a href="https://www.iconfinder.com/icons/175463/compare_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="attribution_toggle">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://www.webalys.com/" target="_blank">Webalys</a><br/>
+                                <a href="https://www.iconfinder.com/icons/115440/commons_creative_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a> (<a href="https://www.iconfinder.com/icons/115440/commons_creative_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="experiences_github_icon">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://www.github.com/" target="_blank">Github</a><br />
+                                <a href="https://www.iconfinder.com/icons/298822/github_mark_icon" target="_blank">IconFinder</a>
+                            </td>
+                            <td class="license"><a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> (<a href="https://www.iconfinder.com/icons/298822/github_mark_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="experiences_examplecom_icon">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="https://www.iconfinder.com/alina.agafitei.73" target="_blank">Alina Agafitei</a><br />
+                                <a href="https://www.iconfinder.com/icons/372891/faq_linecon_question_round_icon" target="_blank">IconFinder</a>
+                            </td>
+                            <td class="license">Free for commercial use (<a href="https://www.iconfinder.com/icons/372891/faq_linecon_question_round_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="experiences_item_marker">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://typicons.com/" target="_blank">Stephen Hutchings</a><br />
+                                <a href="https://www.iconfinder.com/icons/216409/outline_spanner_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a> (<a href="https://www.iconfinder.com/icons/216409/outline_spanner_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="education_college_icon">
+                            <td class="img"><i></i></td>
+                            <td class="author">
+                                <a href="http://www.hevngrafix.com/" target="_blank">HevnGrafix Design</a><br />
+                                <a href="https://www.iconfinder.com/icons/465048/article_blog_book_document_media_news_note_icon" target="_blank">IconFinder</a>
+                            </td>
+                            <td class="license">Free for commercial use (Include link to authors website) (<a href="https://www.iconfinder.com/icons/465048/article_blog_book_document_media_news_note_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                        <tr class="selfintro_tickmark">
+                            <td class="img"><i></i></td>
+                            <td class="author"><a href="http://designmodo.com/" target="_blank">Designmodo</a><br />
+                                <a href="https://www.iconfinder.com/icons/115793/star_icon" target="_blank">IconFinder</a><br /><i data-i18n="3wv7AhD"></i>
+                            </td>
+                            <td class="license"><a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a> (<a href="https://www.iconfinder.com/icons/115793/star_icon" target="_blank">Source</a>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {{''|i18n|emit:this:'i18n_tran_end'}}
+        <div data-log="OnBodyEnd"></div>
+    </body>
+</html>
+<!--2nA65Sv end-->
+<!--<![endif]-->
